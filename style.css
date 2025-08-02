@@ -20,8 +20,7 @@
 
 html {
     font-size: 62.5%;
-    overflow: hidden;
-    padding-top: 0; 
+    scroll-padding-top: 9rem;
     scroll-behavior: smooth;
 }
 
