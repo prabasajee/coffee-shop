@@ -7,7 +7,9 @@
     "start": "live-server --port=3000 --host=0.0.0.0",
     "dev": "live-server --port=3000",
     "build": "echo 'No build process needed for static site'",
-    "test": "echo 'No tests specified'"
+    "test": "echo 'No tests specified'",
+    "release": "echo 'Creating release...'",
+    "version": "echo 'Current version: v%npm_package_version%'"
   },
   "keywords": [
     "coffee",
