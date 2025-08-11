@@ -24,6 +24,10 @@ html {
     scroll-behavior: smooth;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 html::-webkit-scrollbar {
     width: .8rem;
 }
@@ -213,7 +217,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(../../assets/images/bg.jpg) no-repeat;
+    background: url(../../assets/images/coffee.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -235,6 +239,10 @@ section {
     padding: 1rem 0;
     color: #eee;
 }
+/* Overrides: make home hero texts black */
+.home .content h3 { color: #000; }
+.home .content p { color: #000; }
+.home .content .btn { color: #000; }
 
 /*about start*/
 .about .row {
